@@ -1,0 +1,23 @@
+
+{
+    "name": "Mudith-session",
+    "description": "Web Session Generator",
+    "logo": "https://files.catbox.moe/dx4k7k.jpg",
+    "repository": "https://github.com/Mudith-MD/Mudith-sesssion",
+    "keywords": ["Mudith-Tech"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "Just Leave This Blank",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
